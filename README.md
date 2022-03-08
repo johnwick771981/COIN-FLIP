@@ -1,5 +1,5 @@
 # COIN-FLIP
-Created a Blockchain project for WEB3 
+Created a Blockchain project for WEB3 Internship task.
 We first built a normal random function generator function (using odd-even concept).
 The Coinflip function checks whether the bet placed is equal to random value or not. 
 If Player wins, then amount is added to his/her account and else deducted and added to owner's account.
