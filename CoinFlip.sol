@@ -53,9 +53,9 @@ contract CoinFlip{
     }
 
     function payWinner(address winnerAddress, uint256 money) public
-    {
-        uint256 amount = 1 ether; 
-        payable(winnerAddress).transfer(money*amount);
+    { 
+        payable(winnerAddress).transfer(money);
         playerWallet[winnerAddress].balance += money;       
-    }    
+    } 
 }
+
